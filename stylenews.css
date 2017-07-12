@@ -1,0 +1,78 @@
+header {
+  height: 75px;
+  font-size: 125%;
+  background-color: #f1c40f;
+  position: sticky;
+}
+
+#logo {
+  width: 5%;
+  float: left;
+  padding-top: .5%;
+  padding-left: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35%;
+}
+
+nav a {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.Info {
+  text-align: center;
+
+}
+body{
+  background-color: black;
+}
+.containter{
+  background-color: blue;
+  height: 500px;
+
+}
+.info h1{
+  width: 50%;
+}
+.inner_box{
+  padding-top: 2%;
+}
+.background_image{
+  background-color: white;
+  width: 50%;
+position: relative;
+left: 25%;
+height: 300px;
+top: 5%;
+}
+form{
+  text-align: center;
+}
+.expand1 {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid brown;
+width: 90%;
+font-size: 20px;
+}
+.expand2 {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid brown;
+width: 90%;
+font-size: 20px;
+margin-top: 20px;
+}
+.button{
+
+  width: 20%;
+  height: 150px;
+  /*can't make its height work for some reason*/
+  margin-top: 20px;
+  padding: 2%;
+}

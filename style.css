@@ -1,0 +1,186 @@
+html {
+  margin: 0;
+  background-color: black;
+}
+body{
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  background-color: tan;
+}
+.container {
+  background-color: #2ecc71;
+}
+
+header {
+  height: 75px;
+  font-size: 125%;
+  background-color: #f1c40f;
+  position: sticky;
+}
+
+#logo {
+  width: 5%;
+  float: left;
+  padding-top: 1.5%;
+  padding-left: 2%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35%;
+}
+
+nav a {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.home_text {
+  text-align: center;
+  font-size: 200%;
+  background-color: #2ecc71;
+  width: 100%;
+}
+
+.home_text p {
+  font-size: 120%;
+  position: relative;
+  bottom: 10%;
+}
+
+.container {
+  background-color: #e74c3c;
+}
+
+.row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 225px;
+}
+
+.row-3-images .three_fifth, .row-3-images .one_fifth {
+  height: 250px;
+  background-color: blue;
+}
+/*fixing error from before regarding picture sizing*/
+
+.row-3-images .three_fifth {
+  width: 50%;
+  margin: 1%;
+  float: left;
+  margin-bottom: 0;
+}
+.row-3 .row-3-image-1{
+  background-image: url('product-1 copy.jpg');
+  height: inherit;
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.row-3-image-1 .test{
+  padding-top: 175px;
+  color: black;
+
+}
+.test h2{
+  background-color: white;
+  width: 30%;
+  padding-left: 1%;
+  font-size: 105%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.row-3 .row-3-image-2{
+  background-image: url('product-2 copy.jpg');
+ height: inherit;
+ background-repeat: no-repeat;
+ background-size: 221px 275px;
+ }
+ .row-3-image-2 .test2{
+   padding-top: 300px;
+   color: black;
+}
+ .test2 h2{
+   background-color: white;
+   width: 30%;
+   padding-left: 1%;
+   font-size: 105%;
+   padding-top: 2%;
+   padding-bottom: 2%;
+ }
+ .row-3 .row-3-image-3{
+   background-image: url('product-3 copy.jpg');
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.one_fifth {
+  width: 23%;
+  margin: 1%;
+  float: left;
+  margin-left: 0;
+  margin-right: 1%;
+  margin-bottom: 0;
+}
+
+.two_fifth {
+  width: 38%;
+  margin: 1%;
+  float: left;
+  margin-left: 1%;
+}
+
+.row-4-images .two_fifth, .row-4-images .one_fifth {
+  background-color: red;
+  height: 175px;
+}
+
+.row-4-images .one_fifth {
+  width: 18%;
+  margin: 1%;
+  margin-right: 1%;
+}
+.row-4 .row-4-image-4{
+  background-image: url('product-4 copy.jpg');
+ height: inherit;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ .row-4 .row-4-image-5{
+   background-image: url('product-5 copy.jpg');
+  height: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .row-4 .row-4-image-6{
+    background-image: url('product-6 copy.jpg');
+   height: inherit;
+   background-repeat: no-repeat;
+   background-size: cover;
+   }
+   .row-4 .row-4-image-7{
+     background-image: url('product-7 copy.jpg');
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+footer {
+  margin-top: 460px;
+  background-color: #2c3e50;
+  height: 70px;
+}
+
+footer h5 {
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 1.5%;
+  font-size: 20px;
+  color: white;
+}
+
+
+/*fixing error from before regarding picture sizing*/
