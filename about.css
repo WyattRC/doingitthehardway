@@ -1,0 +1,156 @@
+html {
+  margin: 0;
+  background-color: black;
+}
+body{
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  background-color: #F2F1E8;
+}
+
+
+header {
+  height: 75px;
+  font-size: 125%;
+background-color: #FFFFFF;
+  position: sticky;
+}
+
+#logo {
+  width: 5%;
+  float: left;
+  padding-top: 1.5%;
+  padding-left: 2%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35%;
+}
+
+nav a {
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #2B2F26;
+}
+nav a:hover{
+  color: #CD5D67;
+}
+/*nav styling above here*/
+
+.topBox{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+h1{
+  text-align: center;
+}
+.topBox h1{
+  font-size: 50px;
+}
+
+.firstParagraph p{
+line-height: 200%;
+}
+
+.secondParagraph h3{
+  font-size: 30px;
+}
+.secondParagraph p{
+  line-height: 175%;
+}
+.middlepic {
+  height: 200px;
+  background-image: url("background-3.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 100%;
+}
+.middlepic h1{
+  position: relative;
+  top: 75px;
+  font-size: 40px;
+  color: white;
+}
+.thirdParagraph p{
+line-height: 200%;
+}
+.thirdParagraph{
+  width: 70%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+
+#quote {
+  border-left: 2px solid brown;
+  padding-left: 20px;
+  line-height: 175%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #808080;
+  font-style: italic;
+}
+.bottomBox{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 12.5px;
+}
+table{
+  margin-top: 30px;
+}
+.table h3{
+  text-align: left;
+
+}
+
+.floated{
+  display: inline-block;
+ width: 26%;
+ float: right;
+margin-top: 70px;
+padding-bottom: 125px;
+}
+
+footer {
+
+  background-color: #556B2F;
+  height: 70px;
+}
+
+footer h5 {
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 3%;
+  font-size: 15px;
+  color: #F2F1E8;
+}
+
+
+/*IMAGES*/
+#firstImage{
+  width: 15%;
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+#backgroundPic {
+  width: 100%;
+  right: 20%;
+  position: fixed;
+  top: 50%;
+  ima
+}
+#thirdImage{
+  width: 85%;
+}

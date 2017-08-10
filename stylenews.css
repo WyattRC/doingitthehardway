@@ -1,7 +1,7 @@
 header {
   height: 75px;
   font-size: 125%;
-  background-color: #f1c40f;
+  background-color: #FFFFFF;
   position: sticky;
 }
 
@@ -23,24 +23,31 @@ nav a {
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
+  color: #2B2F26;
 }
+nav a:hover{
+  color: #CD5D67;
+}
+
 .Info {
   text-align: center;
-
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+.Info h2{
+  font-size: 22.5px;
 }
 body{
   background-color: black;
 }
 .containter{
-  background-color: blue;
-  height: 500px;
+  background-image: url('background-2.jpg');
+  height: 550px;
+  background-size: cover;
+}
 
-}
-.info h1{
-  width: 50%;
-}
 .inner_box{
   padding-top: 2%;
+  
 }
 .background_image{
   background-color: white;
@@ -56,14 +63,14 @@ form{
 .expand1 {
   border: 0;
   outline: 0;
-  border-bottom: 2px solid brown;
+  border-bottom: 2px solid #968772;
 width: 90%;
 font-size: 20px;
 }
 .expand2 {
   border: 0;
   outline: 0;
-  border-bottom: 2px solid brown;
+  border-bottom: 2px solid #968772;
 width: 90%;
 font-size: 20px;
 margin-top: 20px;
@@ -71,8 +78,10 @@ margin-top: 20px;
 .button{
 
   width: 20%;
-  height: 150px;
+  height: 40px;
   /*can't make its height work for some reason*/
   margin-top: 20px;
   padding: 2%;
+  background-color: #968772;
+
 }
